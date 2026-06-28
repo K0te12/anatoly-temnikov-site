@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anatoly Temnikov — Official Website</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Верхнее меню -->
+  <header class="top-nav">
+    <nav class="nav-left">
+      <a href="#works" data-i18n="works">WORKS</a>
+      <a href="#links" data-i18n="links">LINKS</a>
+      <a href="#contact" data-i18n="contact">CONTACT</a>
+    </nav>
+    <div class="lang-switch">
+      <button class="lang-btn active" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="de">DE</button>
+      <button class="lang-btn" data-lang="ru">RU</button>
+    </div>
+  </header>
+
+  <!-- Главный экран с крупным портретом -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="author-name">Anatoly Temnikov</h1>
+      <div class="divider"></div>
+      <p class="author-bio" data-i18n="bio">Independent philosopher and writer.<br>Published in English, German, and Russian.</p>
+      <a href="#works" class="explore-link" data-i18n="explore">EXPLORE WORKS →</a>
+    </div>
+    <div class="hero-photo">
+      <img src="images/MyFace.png" alt="Anatoly Temnikov">
+    </div>
+  </section>
+
+  <!-- Раздел с книгами -->
+  <section id="works" class="section">
+    <h2 data-i18n="works">Works</h2>
+    <div class="book-grid" id="bookGrid"></div>
+  </section>
+
+  <!-- Раздел со ссылками -->
+  <section id="links" class="section">
+    <h2 data-i18n="links">Links</h2>
+    <div class="links-grid">
+      <a href="https://www.amazon.com/author/temnikovanatoly" target="_blank" class="link-card">Amazon</a>
+      <a href="https://www.litres.ru/author/anatoliy-temnikov-33925214/" target="_blank" class="link-card">LitRes</a>
+      <a href="https://t.me/AnatoliiTemnikov" target="_blank" class="link-card">Telegram</a>
+      <a href="https://www.youtube.com/@AnatolyAnatolievich-r2n" target="_blank" class="link-card">YouTube</a>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section id="contact" class="section">
+    <h2 data-i18n="contact">Contact</h2>
+    <p>Email: anatoliitemnikov@gmail.com</p>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
